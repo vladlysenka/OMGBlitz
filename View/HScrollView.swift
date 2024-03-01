@@ -11,10 +11,15 @@ struct HScrollView: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 10) {
                 ForEach(numbers.indices, id: \.self) { index in
-                    NumberGesture(number: self.$numbers[index])
+                    NumberGesture(number: $numbers[index])
                 }
             }
             .padding(5)
+        }
+        .onAppear {
+            // Обновление чисел в списке, когда он становится видимым
+            let randomIndex = Int.random(in: 0..<numbers.count)
+            numbers[randomIndex] = Int.random(in: 0...100)
         }
     }
 }

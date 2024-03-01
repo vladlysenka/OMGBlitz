@@ -40,6 +40,7 @@ struct NumberGesture: View {
     }
 }
 
+
 #Preview {
     @State var number: Int = 1
     return NumberGesture(number: $number)

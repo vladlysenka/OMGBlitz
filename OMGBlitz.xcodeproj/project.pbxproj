@@ -13,6 +13,7 @@
 		F51192F82B91D80A00F8C7E3 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51192F72B91D80A00F8C7E3 /* Content.swift */; };
 		F51192FA2B91DAAE00F8C7E3 /* NumberGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51192F92B91DAAE00F8C7E3 /* NumberGesture.swift */; };
 		F51192FC2B91DEAF00F8C7E3 /* HScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51192FB2B91DEAF00F8C7E3 /* HScrollView.swift */; };
+		F51192FF2B91E31E00F8C7E3 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51192FE2B91E31E00F8C7E3 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F51192F72B91D80A00F8C7E3 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		F51192F92B91DAAE00F8C7E3 /* NumberGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGesture.swift; sourceTree = "<group>"; };
 		F51192FB2B91DEAF00F8C7E3 /* HScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollView.swift; sourceTree = "<group>"; };
+		F51192FE2B91E31E00F8C7E3 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 				F51192F42B91D7C700F8C7E3 /* App */,
 				F51192F62B91D7ED00F8C7E3 /* Assets */,
 				F51192F52B91D7E400F8C7E3 /* View */,
+				F51192FD2B91E30800F8C7E3 /* Model */,
 				F51192E42B91D7B200F8C7E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +90,14 @@
 				F51192EC2B91D7B400F8C7E3 /* Preview Content */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		F51192FD2B91E30800F8C7E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F51192FE2B91E31E00F8C7E3 /* Store.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51192FF2B91E31E00F8C7E3 /* Store.swift in Sources */,
 				F51192F82B91D80A00F8C7E3 /* Content.swift in Sources */,
 				F51192E72B91D7B200F8C7E3 /* OMGBlitzApp.swift in Sources */,
 				F51192FC2B91DEAF00F8C7E3 /* HScrollView.swift in Sources */,
