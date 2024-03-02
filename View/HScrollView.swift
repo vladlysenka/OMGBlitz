@@ -4,9 +4,11 @@ import SwiftUI
 
 
 struct HScrollView: View {
-    
+    // MARK: - Binding : Связывание
     @Binding var numbers: [Int]
+
     
+    // MARK: - Body
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 10) {

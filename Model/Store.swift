@@ -5,7 +5,9 @@ import Observation
 
 
 @Observable class Store {
+    // MARK: - Properties : Свойства
     var lists = [[Int]]()
+    
     private var timer: Timer?
 
     

@@ -4,11 +4,14 @@ import SwiftUI
 
 
 struct NumberGesture: View {
-    
-    @Binding var number: Int
+    // MARK: - State : Cостояние
     @State private var scale: CGFloat = 1.0
     @State private var isPressed = false
     
+    
+    // MARK: - Binding : Связывание
+    @Binding var number: Int
+
     
     // MARK: - Body
     var body: some View {

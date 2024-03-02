@@ -4,9 +4,11 @@ import SwiftUI
 
 
 struct Content: View {
-    
+    // MARK: - State : Cостояние
     @State private var store = Store()
+
     
+    // MARK: - Body
     var body: some View {
         ScrollView {
             LazyVStack(spacing: 10) {
