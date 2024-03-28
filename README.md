@@ -1,5 +1,5 @@
-# OMGBlitz test assignment
+# OMGBlitz
 
-### OMG
+### Test assignment
 
-> Тестовое задание для компании OMG
+> Для OMG
